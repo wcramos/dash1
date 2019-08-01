@@ -1,0 +1,7 @@
+applications:
+- name: wagramos-garage1
+  path: build/
+  instances: 1
+  memory: 128M
+  buildpacks: 
+    - staticfile_buildpack
